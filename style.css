@@ -1,9 +1,12 @@
 body {
   font-family: sans-serif;
+  display: flex;
+  justify-content: space-around;
 }
 .wrapper {
   display: flex;
   justify-content: space-around;
+  height: fit-content;
 }
 
 h1 {
@@ -26,4 +29,14 @@ ul {
 }
 
 .char {
+  border: 2px solid orangered;
+  margin: 5px 0;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.first {
+  border: 5px solid violet;
 }
